@@ -373,12 +373,10 @@ public class KasirGUI extends javax.swing.JFrame implements FungsiKasir{
     }//GEN-LAST:event_txtBayarActionPerformed
 
     private void btnTransaksiBaruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTransaksiBaruActionPerformed
-//        txtKodeBarang.setText("");
-//        txtNamaBarang.setText("");
-//        txtHargaBarang.setText("");
-//        txtQTY.setText("");
-//        txtTotalHarga.setText("");
+        // MENGKOSONGKAN TABEL LIST DAN MEMBUAT MODEL BARU
         tblList.setModel(new DefaultTableModel(null, new String[]{"Kode Barang", "Nama Barang", "Harga", "Qty", "Total"}));
+        
+        // MENGKOSONGKAN
         txtItemDibeli.setText("");
         txtSubTotal.setText("");
         txtBayar.setText("");
