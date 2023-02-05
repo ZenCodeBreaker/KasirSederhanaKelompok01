@@ -468,6 +468,16 @@ public class KasirGUI extends javax.swing.JFrame implements FungsiKasir{
                         txtHargaBarang.setText(angka.format(2400000));
                         txtQTY.grabFocus();
                     }
+                    case "V14-ADA" -> {
+                        txtNamaBarang.setText("Lenovo V14 - ADA");
+                        txtHargaBarang.setText(angka.format(8400000));
+                        txtQTY.grabFocus();
+                    }
+                    case "ROG-G14" -> {
+                        txtNamaBarang.setText("ASUS ROG Zephyrus G14");
+                        txtHargaBarang.setText(angka.format(25000000));
+                        txtQTY.grabFocus();
+                    }
                     default -> {
                         txtNamaBarang.setText("");
                         txtHargaBarang.setText("");
@@ -490,6 +500,16 @@ public class KasirGUI extends javax.swing.JFrame implements FungsiKasir{
                     case "T430" -> {
                         txtNamaBarang.setText("Lenovo Thinkpad T430");
                         txtHargaBarang.setText(angka.format(2400000));
+                        txtQTY.grabFocus();
+                    }
+                    case "V14-ADA" -> {
+                        txtNamaBarang.setText("Lenovo V14 - ADA");
+                        txtHargaBarang.setText(angka.format(8400000));
+                        txtQTY.grabFocus();
+                    }
+                    case "ROG-G14" -> {
+                        txtNamaBarang.setText("ASUS ROG Zephyrus G14");
+                        txtHargaBarang.setText(angka.format(25000000));
                         txtQTY.grabFocus();
                     }
                     default -> {
